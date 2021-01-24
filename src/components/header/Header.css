@@ -1,0 +1,55 @@
+.header{
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.header h3{
+    font-size: 32px;
+    color: #1eba68;
+    margin: 0px;
+}
+
+.header h3::first-letter {
+    color: #000;
+    font-size: 36px;}
+
+.header span{
+    font-size: 12px;
+    font-style: italic;
+}    
+
+.switch{
+    position: relative;
+    float: right;
+    transform: translateY(-50%);
+}
+
+.switch_container{
+    height: 30px;
+   width: 30px;
+   border: 4px solid #1eba68;
+   border-radius: 50%;
+   border-top: 4px solid transparent;
+   
+}
+
+.line{
+    height: 15px;
+    width: 2px;
+    background-color: #1eba68;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.switch:hover .switch_container{
+    border: 4px solid tomato;
+    border-top: 4px solid transparent;
+}
+
+.switch:hover .line{
+    background-color: tomato;
+}

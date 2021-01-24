@@ -1,0 +1,29 @@
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.loader{
+    top: 50%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-bottom: 2px solid #fbfb05;
+    animation: rotate 1s linear infinite;
+    display: inline-block;
+    position: ABSOLUTE;
+    left: 50%;
+}
+
+.loader_wrapper{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background: rgba(255,255,255,0.5);
+}

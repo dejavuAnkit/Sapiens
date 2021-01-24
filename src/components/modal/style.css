@@ -1,0 +1,30 @@
+
+.dialog{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    min-width: 250px;
+    max-width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    animation: slidein 2s linear;
+    z-index: 1000;
+    background: #fff;
+    border: 1px solid #fff;
+    box-shadow: -1px 1px 5px 0px #ccc;
+    transform: translate(-50%, -50%);
+}
+
+.backdrop{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    background: rgba(255,255,255);
+    z-index: 999;
+}

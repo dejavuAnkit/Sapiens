@@ -1,0 +1,28 @@
+.login_wrapper{
+    border-radius: 5px;
+}
+
+.login_body{
+    padding: 20px;
+}
+
+.login_container{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.m-bt{
+    margin: 10px 0px;
+}
+
+.signup-text{
+    font-size: 12px;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.signup-text span{
+    color: #1eba68;
+}

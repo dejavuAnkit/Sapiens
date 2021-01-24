@@ -1,0 +1,40 @@
+.product_container{
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.product_toolbar{
+    margin: 0px 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.product_list_page {
+    width: 800px;
+}
+
+.imagePreview{
+    display: flex;
+    align-items: center;
+}
+.thumbnail{
+    max-width: 120px;
+    max-height: 120px;
+    margin: 5px;
+}
+
+.thumbnail img{
+    height: 100%;
+    width: 100%;
+}
+
+.f-center{
+    display: flex;
+    justify-content: center;
+}
+
+.create_post{
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}

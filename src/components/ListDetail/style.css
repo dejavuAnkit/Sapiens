@@ -1,0 +1,20 @@
+.list_detail{
+    padding: 20px;
+    color: #fbfb05;
+    display: flex;
+    border: 1px solid #cccccc;
+    margin: 20px 0px;
+}
+
+label{
+    font-weight: 600;
+
+}
+
+.right{
+    flex: 1;
+}
+
+.left{
+    flex: 2;
+}

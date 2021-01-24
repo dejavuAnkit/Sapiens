@@ -1,0 +1,4 @@
+export const GOOGLE_PROGRESS = 'GOOGLE_PROGRESS';
+export const GOOGLE_SUCCESS = 'GOOGLE_SUCCESS';
+export const GOOGLE_FAILURE = 'GOOGLE_FAILURE';
+export const GOOGLE_INIT = 'GOOGLE_INIT';
